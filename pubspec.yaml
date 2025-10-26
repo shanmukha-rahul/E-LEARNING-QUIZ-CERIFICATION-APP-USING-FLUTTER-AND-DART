@@ -1,0 +1,29 @@
+name: elearning_app
+description: A Flutter e-learning application.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  file_picker: ^9.2.3
+  video_player: ^2.8.2
+  http: ^1.1.0
+  intl: ^0.18.1  # Make sure this line exists
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/services/photos/
